@@ -1,0 +1,22 @@
+
+
+#intro {
+  justify-items: center;
+  max-height: 750px;
+}
+
+#informacao {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  margin-bottom: 80px;
+  align-items: center;
+
+}
+
+#informacao img {
+  width: 87.273px;
+  height: 87.273px;
+  margin-bottom: 56px;
+
+}
