@@ -29,7 +29,7 @@
 
 --title-lg: 700 56px/120% var(--asap);
 --title-md: 700 24px/120% var(--asap);
---title-sm: 700 16px/120% var(--inconsolata);
+--title-sm: 700 16px/120% var(--asap);
 
 --subtitle: 400 20px/120% var(--inconsolata);
 
@@ -41,4 +41,9 @@ body {
   width: max-content;
   justify-self: center;
 
+}
+
+#grid figcaption:hover {
+border-radius: 12px;
+border: 1.5px solid var(--gray-400);
 }

@@ -2,12 +2,15 @@
 
 #intro {
 
+
   background-image: url(./assets/Background_Intro.png);
   background-size: cover;   
   width: 100vw;
   justify-items: center;
-  max-height: 750px;
+  align-content: center;
+  height: 100vh;
   padding: 120px 163px 57px 163px;
+  
 }
 
 #informacao {
@@ -16,6 +19,7 @@
   flex-direction: column;
   margin-bottom: 80px;
   align-items: center;
+
 
 }
 
