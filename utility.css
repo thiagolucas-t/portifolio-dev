@@ -18,6 +18,10 @@
   margin-bottom: 20px;
 }
 
+.title-md {
+  color: var(--gray-600);
+  font: var(--title-md);
+}
 .text-sm {
   color: var(--gray-400);
   font: var(--text-sm);

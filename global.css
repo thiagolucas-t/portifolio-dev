@@ -28,7 +28,7 @@
 --asap: "Asap", sans-serif;
 
 --title-lg: 700 56px/120% var(--asap);
---title-md: 700 24px/120% var(--inconsolata);
+--title-md: 700 24px/120% var(--asap);
 --title-sm: 700 16px/120% var(--inconsolata);
 
 --subtitle: 400 20px/120% var(--inconsolata);
@@ -38,9 +38,7 @@
 }
 
 body {
-  background-image: url(./assets/Background_Intro.png);
-  background-size: cover;
   width: max-content;
   justify-self: center;
-  padding: 120px 163px 57px 163px;
+
 }
