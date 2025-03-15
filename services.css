@@ -1,0 +1,40 @@
+
+#services {
+  background-color: var(--gray-100);
+  padding: 88px 120px 120px 120px;
+
+}
+
+#services header {
+
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 56px;
+}
+
+.serv {
+
+  display: flex;
+  width: max-content;
+  justify-self: center;
+  gap: 24px;
+}
+
+.serv figcaption {
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid var(--gray-200);
+
+}
+
+.serv figcaption img{
+  margin-bottom: 20px;
+}
+
+#p1 {
+  margin-bottom: 8px;
+}
