@@ -3,3 +3,5 @@
 @import url(intro.css);
 @import url(projects.css);
 @import url(services.css);
+@import url(contact.css);
+@import url('node_modules/@phosphor-icons/web/src/css/ph.css');

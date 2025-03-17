@@ -1,0 +1,89 @@
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 128px 120px 200px 120px;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#contact header {
+
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  justify-self: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+#contact header span {
+  color: var(--purple);
+
+}
+
+#contact header .title-md {
+  margin-bottom: 8px;
+}
+
+#container-links p {
+  margin-left: 40px;
+}
+
+
+#img1 {
+  display: flex;
+  background-image: url(./assets/LinkedinLogo.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 28px;
+}
+
+#img1:hover {
+  background-image: url(./assets/linkedin.hover.svg);
+  background-size: 28px;
+}
+
+
+#img2 {
+  display: flex;
+  background-image: url(./assets/InstagramLogo.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 28px;
+}
+
+#img2:hover {
+  background-image: url(./assets/instagram.hover.svg);
+  background-size: 28px;
+}
+
+#img3 {
+  display: flex;
+  background-image: url(./assets/GithubLogo.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 28px;
+}
+
+#img3:hover {
+  background-image: url(./assets/github.hover.svg);
+  background-size: 28px;
+}
+
+#img4 {
+  display: flex;
+  background-image: url(./assets/EnvelopeSimple.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 28px;
+}
+
+#img4:hover {
+  background-image: url(./assets/envelope.hover.svg);
+  background-size: 28px;
+}
